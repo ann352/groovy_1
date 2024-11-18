@@ -15,11 +15,13 @@ class Maps {
         def worker = [userName: "Jim Smith", (mailAddress): "kkk@gmail.com"]
         person.size()
         person.sort()
+
         //looping through person
         //for
         for (entry in person) {
             println(entry)
         }
+
         //for each
         for (key in person.keySet()) {
             println("$key:$person[key]")

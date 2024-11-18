@@ -48,10 +48,11 @@ class Closures {
         def greet = { String name, greeting = "Hi!" -> println("$greeting $name") }
         greet("Jim", "Hello")
         //method which takes closure
-//        def times3(n, closure) {
-//            closure(n * 10)
-//        }
+        //        def times3(n, closure) {
+        //            closure(n * 10)
+        //        }
 
+        Closure c = {} //we can also define closure in that way
 
         //currying -> we can use it for closures with multile paameters if we want to set some default values in it
         def log = { String name, Date date, String message -> println "$date [$name] $message" }
