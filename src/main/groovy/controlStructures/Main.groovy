@@ -137,10 +137,10 @@ class Main {
         }
         assert a == 2
 
-        for (String s in 'a'..'z') {
-            if (s = 'a') continue
+        for (String s in "a".."z") {
+            if (s = "a") continue
             println(s)
-            if (s > 'b') break //we print here only b and c
+            if (s > "b") break //we print here only b and c
         }
     }
 }
