@@ -1,4 +1,4 @@
-package oop
+package oop.javaVsGroovy
 
 class Person {
     //by default classes in groovy are public so we don't need write 'public' access modifier here like in Java
